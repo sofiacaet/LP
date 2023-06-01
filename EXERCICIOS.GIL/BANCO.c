@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     //4. Codifique um programa em C que simule um caixa eletrônico, com as opções: 1 -
@@ -9,6 +10,7 @@ int main(){
 
     do
     {
+        system("cls");
         printf("\nDigite a opcao: ");
         printf("\n(1) Deposito\n(2) Saque\n(3) Ver saldo\n(0) Sair\n> ");
         scanf("%i", &op);
