@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int l1, l2, l3;
+    printf("Digite os 3 lados do triangulo: ");
+    scanf("%d%d%d", &l1, &l2, &l3);
+
+    if ((l1 == l2) && (l2 == l3)){
+        printf("Equilatero\n");
+    } else if ((l1 != l2) && (l2 != l3) && (l1 != l3)){
+        printf("Escaleno\n");
+    } else {
+        printf("Isosceles\n");
+    }
+
+    return 0;
+}

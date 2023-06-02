@@ -19,6 +19,7 @@ int main()
     }
 
     printf("\n");
+    
     for ( i = 0; i < A; i++)    
     {
         printf("%d ", vet[i]);
