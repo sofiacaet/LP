@@ -8,7 +8,7 @@ int main ()
 
     do
     {
-        printf("Digite a largura  a altura: ");
+        printf("Digite a largura e a altura: ");
         scanf("%d %d", &larg, &alt);
     } while ((larg <= 0) || (alt <= 0));
     

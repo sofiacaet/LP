@@ -3,7 +3,8 @@
 #include <time.h>
 
 #define N 6
-
+                //Lê um vetor e inverter o valor dentro dele sem usar um segundo valor
+                //msms atv do ex3.c com atalhos para digitar as opções dos números de forma automática
 int main ()
 {
     srand (time(NULL));
@@ -34,5 +35,3 @@ int main ()
 
     return 0;
 }
-//Lê um vetor e inverter o valor dentro dele sem usar um segundo valor
-//msms atv do ex3.c com atalhos para digitar as opções dos números de forma automática

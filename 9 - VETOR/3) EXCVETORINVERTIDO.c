@@ -11,8 +11,6 @@ int main()
 
     for(i = 0; i < N; i++)
     {
-        //printf("Digite um valor: ");
-        //scanf("%d", &vetA[i]);
         vetA[i] = i+1;
     }
 
